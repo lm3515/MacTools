@@ -1,0 +1,18 @@
+﻿<Window x:Class="MacTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MacTool"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="MAC地址批量生成工具" Margin="239,42,239,325" FontSize="30"/>
+        <Label Content="数量：" HorizontalAlignment="Left" Margin="184,185,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox x:Name="numBox" HorizontalAlignment="Left" Height="39" Margin="260,190,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="332" FontSize="22" TextChanged="TextBox_TextChanged" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True"/>
+        <Button Content="生成" HorizontalAlignment="Left" Margin="239,338,0,0" VerticalAlignment="Top" Width="345" Height="46" FontSize="24" Click="Button_Click" Background="#FF0A82F9" Foreground="#FFF9F6F6"/>
+        <Label Content="一次性最多支持生成65000个MAC地址" HorizontalAlignment="Left" Margin="283,118,0,0" VerticalAlignment="Top" Width="255" Foreground="#FFF90505" FontSize="16"/>
+        <Label Content="默认生成文件路径D:\mac.txt" HorizontalAlignment="Left" Margin="261,229,0,0" VerticalAlignment="Top" Width="229" Foreground="#FF2706F5"/>
+
+    </Grid>
+</Window>

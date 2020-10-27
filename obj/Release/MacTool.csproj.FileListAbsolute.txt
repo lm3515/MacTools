@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\MacTool\bin\Release\MacTool.exe.config
+C:\Users\Administrator\source\repos\MacTool\bin\Release\MacTool.exe
+C:\Users\Administrator\source\repos\MacTool\bin\Release\MacTool.pdb
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\source\repos\MacTool\obj\Release\App.g.cs
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool_MarkupCompile.cache
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool_MarkupCompile.lref
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MainWindow.baml
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool.g.resources
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool.Properties.Resources.resources
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool.exe
+C:\Users\Administrator\source\repos\MacTool\obj\Release\MacTool.pdb
