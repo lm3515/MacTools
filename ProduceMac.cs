@@ -60,10 +60,15 @@ namespace MacTool
 
             // 转换为十六进制
             string hex = string.Format("{0:x}", Convert.ToInt64(concat, 2));
+            string endStr = hex.Substring(2, 6);
+            // 印记厂商标识(注意第二位一定要为偶数)
+            hex = "68" + endStr;
+
             //每两个字母中间加":"并且转化为大写字母
             hex = hex.ToUpper().Insert(2, ":");
             hex = hex.ToUpper().Insert(5, ":");
             hex = hex.ToUpper().Insert(8, ":");
+            
             return hex;
         }
 
@@ -74,9 +79,9 @@ namespace MacTool
             string st = "";
             List<string> list = new List<string>();
             
-            for (int i = 0; i < 256; i++)
+            for (int i = 1; i < 256; i++)
             {
-                for (int j = 0; j < 256; j++)
+                for (int j = 1; j < 256; j++)
                 {
                     st = i.ToString("x8").Substring(6, 2).ToUpper() + ":" + j.ToString("x8").Substring(6, 2).ToUpper();
                     st = hex + ":" + st;
