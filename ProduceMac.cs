@@ -61,7 +61,7 @@ namespace MacTool
             // 转换为十六进制
             string hex = string.Format("{0:x}", Convert.ToInt64(concat, 2));
             string endStr = hex.Substring(2, 6);
-            // 印记厂商标识(注意第二位一定要为偶数)
+            // 厂商标识(注意第二位一定要为偶数)
             hex = "68" + endStr;
 
             //每两个字母中间加":"并且转化为大写字母
